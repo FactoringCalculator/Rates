@@ -1,6 +1,6 @@
 // ===== CONFIGURACIÓN DE PORCENTAJES =====
 // Porcentaje de factoring que se descuenta del valor de la carga
-const FACTORING_RATE = 3.8; // 3.8% - Modificar este valor para cambiar el porcentaje
+const FACTORING_RATE = 3.9; // 3.9% - Modificar este valor para cambiar el porcentaje
 // ========================================
 
 let selectedTransferMethod = 'none';
@@ -73,3 +73,4 @@ document.addEventListener('keydown', function(e) {
     calculateFactoring();
   }
 });
+
